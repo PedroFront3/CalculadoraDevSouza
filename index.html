@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon "  type="image-x-png" href="img/calculadora.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Calculadora - DevSouza</title>
+</head>
+
+<body>
+
+  <div>
+
+    <input class="display">
+
+    <button class="gray-button" onclick=" limparTela()">AC</button>
+    <button class="gray-button" onclick=" inverterNumero()">+/-</button>
+    <button class="blue-button" onclick="adicionarCaractere('/')">/</button>
+    <button class="blue-button" onclick="adicionarCaractere('*')">*</button>
+    <button class="black-button" onclick="adicionarCaractere('7')">7</button>
+    <button class="black-button" onclick="adicionarCaractere('8')">8</button>
+    <button class="black-button" onclick="adicionarCaractere('9')">9</button>
+    <button class="blue-button" onclick="adicionarCaractere('-')">-</button>
+    <button class="black-button" onclick="adicionarCaractere('4')">4</button>
+    <button class="black-button" onclick="adicionarCaractere('5')">5</button>
+    <button class="black-button" onclick="adicionarCaractere('6')">6</button>
+    <button class="blue-button" onclick="adicionarCaractere('+')">+</button>
+    <button class="black-button" onclick="adicionarCaractere('1')">1</button>
+    <button class="black-button" onclick="adicionarCaractere('2')">2</button>
+    <button class="black-button" onclick="adicionarCaractere('3')">3</button>
+    <button class="equal-button equal" onclick="calcular()">=</button>
+    <button class="black-button zero" onclick="adicionarCaractere('0')">0</button>
+    <button class="black-button" onclick="adicionarCaractere('.')">.</button>
+
+  </div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
